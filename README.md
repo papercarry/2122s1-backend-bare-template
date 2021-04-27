@@ -337,8 +337,8 @@
     First served 1
     Second served 2
     [
-        { "id": 1, "served": false }
-        { "id": 2, "served": false }
+        { "id": 1, "served": true }
+        { "id": 2, "served": true }
         { "id": 3, "served": false }
     ]
     ```
