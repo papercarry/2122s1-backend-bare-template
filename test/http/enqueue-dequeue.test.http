@@ -3,3 +3,15 @@
 ### Test
 
 GET {{host}} HTTP/1.1
+
+### Enqueue
+
+POST {{host}}/queue HTTP/1.1
+
+### Dnqueue
+
+DELETE  {{host}}/dequeue HTTP/1.1
+
+### Not Found
+
+GET {{host}}/afjsdlfjsdl HTTP/1.1
